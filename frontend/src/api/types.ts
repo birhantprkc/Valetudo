@@ -301,16 +301,6 @@ export interface MQTTConfiguration {
     customizations: {
         topicPrefix: string;
     };
-    interfaces: {
-        homie: {
-            enabled: boolean;
-            cleanAttributesOnShutdown: boolean;
-        };
-        homeassistant: {
-            enabled: boolean;
-            cleanAutoconfOnShutdown: boolean;
-        };
-    };
     optionalExposedCapabilities: Array<string>;
 }
 
